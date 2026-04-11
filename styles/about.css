@@ -1,0 +1,44 @@
+/* ===== ABOUT SECTION ===== */
+.about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 80px 10%;
+  flex-wrap: wrap;
+}
+
+.about-img img {
+  width: 260px;
+  border-radius: 50%;
+  padding: 5px;
+  background: linear-gradient(45deg, #7b2ff7, #00d4ff);
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
+  animation-delay: 1.5s;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.about-text h2 {
+  font-size: 48px;
+}
+
+.about-text h2 span {
+  color: #0ef;
+}
+
+.about-text h4 {
+  font-size: 29px;
+  margin: 10px 0;
+  line-height: 30px;
+  color: #fff;
+}
+
+.about-text p {
+  line-height: 1.4;
+  margin-bottom: 4rem;
+  font-size: 20px;
+}

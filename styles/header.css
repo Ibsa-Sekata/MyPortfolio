@@ -1,0 +1,38 @@
+/* ===== HEADER ===== */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 10%;
+  background-color: rgb(241, 238, 238);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 25px;
+  color: #081b29;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+}
+
+.navbar a {
+  display: inline-block;
+  font-size: 18px;
+  color: #081b29;
+  text-decoration: none;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+  opacity: 0;
+  animation: slideTop 0.5s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+.navbar a:hover {
+  color: #0ef;
+}
