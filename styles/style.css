@@ -155,3 +155,97 @@ body {
     transform: translateY(0px);
   }
 }
+/* ===== DARK MODE STYLES ===== */
+body.dark-mode {
+  background-color: #081b29;
+  color: #ededed;
+}
+
+body.dark-mode .header {
+  background-color: #112e42;
+}
+
+body.dark-mode .logo {
+  color: #ededed;
+}
+
+body.dark-mode .navbar a {
+  color: #ededed;
+}
+
+body.dark-mode .navbar a:hover {
+  color: #0ef;
+}
+
+body.dark-mode .home-content h1,
+body.dark-mode .home-content h3,
+body.dark-mode .home-content p {
+  color: #ededed;
+}
+
+body.dark-mode .about-text h2,
+body.dark-mode .about-text h4,
+body.dark-mode .about-text p {
+  color: #ededed;
+}
+
+body.dark-mode .sub-title {
+  color: #ededed;
+}
+
+body.dark-mode .services-list div {
+  background-color: #112e42;
+  color: #ededed;
+}
+
+body.dark-mode .services-list div h2 {
+  color: #ededed;
+}
+
+body.dark-mode .contact-text h2,
+body.dark-mode .contact-text h4,
+body.dark-mode .contact-text p {
+  color: #ededed;
+}
+
+body.dark-mode .contact-list li {
+  color: #ededed;
+}
+
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+  background-color: #112e42;
+  color: #ededed;
+  border: 1px solid #0ef;
+}
+
+body.dark-mode .contact-form input::placeholder,
+body.dark-mode .contact-form textarea::placeholder {
+  color: #bbb;
+}
+
+body.dark-mode .last-text p {
+  color: #ededed;
+}
+
+body.dark-mode .top {
+  background-color: #0ef;
+  color: #081b29;
+}
+
+body.dark-mode .layer h5,
+body.dark-mode .layer p {
+  color: #ededed;
+}
+
+body.dark-mode .heading1 {
+  color: #ededed;
+}
+
+body.dark-mode .bar .info span {
+  color: #ededed;
+}
+
+body.dark-mode .text {
+  color: #ededed;
+}

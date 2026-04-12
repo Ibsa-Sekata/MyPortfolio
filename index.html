@@ -15,25 +15,36 @@
     <link rel="stylesheet" href="styles/skill.css" />
     <link rel="stylesheet" href="styles/project.css" />
     <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
 </head>
 
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
         <nav class="navbar">
-            <a href="#home" style="--i: 1" class="active">Home </a>
-            <a href="#about" style="--i: 2"> About</a>
-            <a href=" #services" style="--i: 3">Skill </a>
-            <a href=" #skills-section" style="--i: 4">Portfolio</a>
-            <a href=" #contact" style="--i: 5">Contact</a>
-
-            <i class="bx bx-moon" id="darkModeToggle" style="
-            cursor: pointer;
-            font-size: 22px;
-            margin-left: 15px;
-            color: #0ef;
-          "></i>
+            <a href="#home" style="--i: 1" class="active">Home</a>
+            <a href="#about" style="--i: 2">About</a>
+            <a href="#services" style="--i: 3">Skill</a>
+            <a href="#skills-section" style="--i: 4">Portfolio</a>
+            <a href="#contact" style="--i: 5">Contact</a>
+            <i class="bx bx-moon" id="darkModeToggle"
+                style="cursor:pointer;font-size:22px;margin-left:15px;color:#0ef;"></i>
         </nav>
+        <div class="mobile-controls">
+            <i class="bx bx-moon" id="darkModeToggleMobile" style="cursor:pointer;font-size:20px;color:#0ef;"></i>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skill</a>
+            <a href="#skills-section">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
     </header>
     <section class="home" id="home">
         <div class="home-content">
@@ -75,7 +86,7 @@
                 only functional but also visually engaging. My work emphasizes clean,
                 maintainable code and best practices in modern web development.
             </p>
-            <p class="second-para" id="#second-para"></p>
+            <p class="second-para" id="second-para"></p>
             <a href="#second-para" class="btn-box more2">More About Me</a>
         </div>
     </section>
@@ -241,7 +252,7 @@
                                 “A simple and interactive Rock-Paper-Scissors game built with JavaScript, HTML, and CSS,
                                 allowing users to play against the computer with a real-time score tracker.”
                             </p>
-                            <a href="https://ibsa-sekata.github.io/rock-paper-siccor/" target="_blank" s>
+                            <a href="https://ibsa-sekata.github.io/rock-paper-siccor/" target="_blank">
                                 <i class="bx bx-link-external" style="color: black"></i></a>
                         </div>
                     </div>

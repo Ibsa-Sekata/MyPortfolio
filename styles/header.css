@@ -36,3 +36,102 @@
 .navbar a:hover {
   color: #0ef;
 }
+/* ===== HAMBURGER MENU ===== */
+.mobile-controls {
+  display: none;
+  align-items: center;
+  gap: 15px;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 3px;
+  padding: 5px;
+}
+
+.hamburger span {
+  width: 4px;
+  height: 4px;
+  background-color: #081b29;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: scale(1.2);
+}
+
+.hamburger.active span:nth-child(2) {
+  transform: scale(1.2);
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: scale(1.2);
+}
+
+/* Mobile dropdown menu */
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: rgb(241, 238, 238);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1000;
+  transform: translateY(-10px);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.mobile-menu.active {
+  display: block;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.mobile-menu a {
+  display: block;
+  padding: 8px 16px;
+  color: #081b29;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+  margin: 0;
+}
+
+.mobile-menu a:last-child {
+  border-bottom: none;
+}
+
+.mobile-menu a:hover {
+  background-color: #f0f0f0;
+  color: #0ef;
+}
+
+/* Dark mode hamburger and mobile menu */
+body.dark-mode .hamburger span {
+  background-color: #ededed;
+}
+
+body.dark-mode .mobile-menu {
+  background-color: #112e42;
+}
+
+body.dark-mode .mobile-menu a {
+  color: #ededed;
+  border-bottom: 1px solid #333;
+}
+
+body.dark-mode .mobile-menu a:hover {
+  background-color: #1a3a52;
+  color: #0ef;
+}
+
+#darkModeToggleMobile {
+  display: none;
+}
