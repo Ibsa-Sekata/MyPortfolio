@@ -13,7 +13,9 @@ img {
 }
 body {
   color: black;
-  transition: background 0.5s ease, color 0.5s ease;
+  transition:
+    background 0.5s ease,
+    color 0.5s ease;
 }
 
 /* ===== HOME SECTION ===== */
@@ -93,6 +95,10 @@ body {
   box-shadow: 0 0 20px #0ef;
 }
 
+.home-sci {
+  margin-bottom: 12px;
+}
+
 /* ===== BUTTON ===== */
 .btn-box {
   display: inline-block;
@@ -107,11 +113,22 @@ body {
   opacity: 0;
   animation: slideTop 1s ease forwards;
   animation-delay: 1.2s;
-  box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+  box-shadow:
+    0 0 5px #0ef,
+    0 0 25px #0ef;
+}
+
+.about-text .btn-box {
+  margin-top: 10px;
 }
 
 .btn-box:hover {
-  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+  box-shadow:
+    0 0 5px cyan,
+    0 0 25px cyan,
+    0 0 50px cyan,
+    0 0 100px cyan,
+    0 0 200px cyan;
 }
 
 /* ===== ANIMATIONS ===== */
