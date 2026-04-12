@@ -18,6 +18,94 @@ body {
     color 0.5s ease;
 }
 
+/* ===== LARGE SCREEN IMAGE SIZES ===== */
+.home-img img {
+  width: 200px !important;
+}
+
+.about-img img {
+  width: 200px !important;
+}
+
+/* ===== LARGE SCREEN COMPACT LAYOUT ===== */
+@media (min-width: 1025px) {
+  /* Remove space between header and home content */
+  .home {
+    padding: 80px 10% 0 !important;
+    min-height: auto !important;
+  }
+
+  /* Remove space between "More About Me" button and about section */
+  .about {
+    padding: 5px 10% 0;
+    min-height: auto;
+  }
+
+  /* Remove extra padding from sections */
+  .services {
+    padding: 5px 10%;
+  }
+
+  #skills-section {
+    padding: 5px 10%;
+  }
+
+  .contact {
+    padding: 5px 10%;
+  }
+
+  /* Reduce header padding */
+  .header {
+    padding: 8px 10%;
+  }
+
+  /* Reduce text margins */
+  .home-content h1 {
+    margin: 1px 0;
+  }
+
+  .home-content h3 {
+    margin: 1px 0;
+  }
+
+  .home-content p {
+    margin-top: 2px;
+  }
+
+  .about-text h2 {
+    margin: 1px 0;
+  }
+
+  .about-text h4 {
+    margin: 1px 0;
+  }
+
+  .about-text p {
+    margin: 2px 0;
+  }
+
+  /* Reduce button margins */
+  .btn-box {
+    margin-top: 2px;
+  }
+
+  /* Reduce section spacing */
+  .sub-title {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
+
+  /* Reduce services container spacing */
+  .services .container {
+    padding-top: 2px;
+  }
+
+  /* Reduce skills section spacing */
+  .container1 {
+    padding: 10px 0;
+  }
+}
+
 /* ===== HOME SECTION ===== */
 .home {
   width: 100%;

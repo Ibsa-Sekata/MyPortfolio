@@ -7,13 +7,53 @@
     padding: 15px 5%;
   }
 
-  /* Home Section */
+  /* Home Section - Keep horizontal layout */
   .home {
-    padding: 90px 5% 0;
+    padding: 10px 5% 0;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: left;
+    gap: 20px;
+    align-items: center;
+    min-height: auto;
+    flex-wrap: nowrap;
+  }
+
+  .home-content {
+    flex: 1;
+  }
+
+  .home-img {
+    max-width: 200px;
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  /* About Section - Keep horizontal layout */
+  .about {
+    padding: 20px 5%;
+    flex-direction: row;
+    text-align: left;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: auto;
+    flex-wrap: nowrap;
+  }
+
+  .about-img {
+    max-width: 200px;
+    margin: 0;
+    flex-shrink: 0;
+    order: 1;
+  }
+
+  .about-text {
+    flex: 1;
+    order: 2;
   }
 
   /* General Sections */
-  .about,
   .contact,
   .portfolio-content,
   #skills-section,
@@ -27,15 +67,6 @@
   .sub-title {
     font-size: 48px;
     padding-bottom: 50px;
-  }
-
-  /* Images - Make smaller */
-  .home-img img {
-    width: 280px;
-  }
-
-  .about-img img {
-    width: 300px;
   }
 
   .row img {
