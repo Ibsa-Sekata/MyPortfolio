@@ -34,6 +34,8 @@ if (toggleMobile) {
     toggleMobile.addEventListener("click", toggleDarkMode);
 }
 
+updateThemeIcons();
+
 const aboutText = `Beyond coding, I enjoy turning ideas into real products that solve problems and make
 life easier for users. I thrive in collaborative environments, continuously learning and experimenting with new
 technologies to deliver innovative solutions. My portfolio showcases projects that demonstrate my skills in full-stack
