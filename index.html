@@ -295,11 +295,14 @@
         </div>
 
         <div class="contact-form">
-            <form action="">
-                <input type="text" placeholder="Enter Your Name" required />
-                <input type="email" placeholder="Enter Your Email" required />
-                <input type="text" placeholder="Enter your subject" />
-                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your idea"></textarea>
+            <form action="https://formsubmit.co/ibsaaseek@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New Portfolio Contact Message" />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_template" value="table" />
+                <input type="text" name="name" placeholder="Enter Your Name" autocomplete="name" required />
+                <input type="email" name="email" placeholder="Enter Your Email" autocomplete="email" required />
+                <input type="text" name="subject" placeholder="Enter your subject" />
+                <textarea name="message" cols="40" rows="10" placeholder="Enter Your idea" required></textarea>
                 <input class="send" type="submit" value="Submit" />
             </form>
         </div>
