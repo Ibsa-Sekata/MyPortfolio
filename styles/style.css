@@ -289,9 +289,12 @@ body.dark-mode .home-content p {
 }
 
 body.dark-mode .about-text h2,
-body.dark-mode .about-text h4,
 body.dark-mode .about-text p {
   color: #ededed;
+}
+
+body.dark-mode .about-text h4 {
+  color: #fff;
 }
 
 body.dark-mode .sub-title {
@@ -352,5 +355,5 @@ body.dark-mode .bar .info span {
 }
 
 body.dark-mode .text {
-  color: #ededed;
+  color: #0ef;
 }
