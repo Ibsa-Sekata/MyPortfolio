@@ -2,10 +2,14 @@
 .about {
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-evenly;
   padding: 80px 10%;
   flex-wrap: wrap;
+}
+
+.about-img {
+  align-self: flex-start;
 }
 
 .about-img img {
