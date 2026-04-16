@@ -81,16 +81,16 @@
   width: 95%;
 }
 .progress-line.python span {
-  width: 50%;
+  width: 90%;
 }
 .progress-line.react span {
-  width: 75%;
+  width: 95%;
 }
 .progress-line.mongodb span {
-  width: 75%;
+  width: 95%;
 }
 .progress-line.nodejs span {
-  width: 75%;
+  width: 95%;
 }
 .progress-line span::after {
   position: absolute;
