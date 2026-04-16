@@ -72,13 +72,13 @@
 }
 
 .progress-line.html span {
-  width: 90%;
+  width: 98%;
 }
 .progress-line.css span {
-  width: 60%;
+  width: 95%;
 }
 .progress-line.javascript span {
-  width: 85%;
+  width: 95%;
 }
 .progress-line.python span {
   width: 50%;
