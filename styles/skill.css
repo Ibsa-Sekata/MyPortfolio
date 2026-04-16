@@ -105,25 +105,25 @@
   opacity: 0;
 }
 .progress-line.html span::after {
-  content: "90%";
+  content: "98%";
 }
 .progress-line.css span::after {
-  content: "60%";
+  content: "95%";
 }
 .progress-line.javascript span::after {
-  content: "85%";
+  content: "95%";
 }
 .progress-line.python span::after {
-  content: "50%";
+  content: "90%";
 }
 .progress-line.react span::after {
-  content: "75%";
+  content: "95%";
 }
 .progress-line.nodejs span::after {
-  content: "75%";
+  content: "95%";
 }
 .progress-line.mongodb span::after {
-  content: "75%";
+  content: "95%";
 }
 
 .progress-line span::before {
